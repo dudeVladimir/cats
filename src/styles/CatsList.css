@@ -84,3 +84,16 @@
     height: 125px;
   }
 }
+
+.item-leave-active {
+  transition: all 0.5s ease;
+}
+.item-leave-to {
+  opacity: 0;
+}
+.item-enter-active {
+  transition: all 0.2s ease;
+}
+.item-enter-from {
+  opacity: 0;
+}

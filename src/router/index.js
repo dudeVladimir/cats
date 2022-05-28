@@ -9,6 +9,10 @@ const routes = [
     path: '/liked-cats',
     component: () => import('../views/LikedCats.vue'),
   },
+  {
+    path: '/about',
+    component: () => import('../views/FaqPage.vue'),
+  },
 ]
 
 const router = createRouter({

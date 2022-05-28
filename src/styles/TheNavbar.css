@@ -11,6 +11,11 @@ nav {
   align-items: center;
 }
 
+nav > div {
+  display: flex;
+  height: 100%;
+}
+
 .nav__link {
   color: #fff;
   text-decoration: none;
@@ -29,4 +34,13 @@ nav {
 
 .nav__link.active {
   background: #1e88e5;
+}
+
+@media (max-width: 500px) {
+  nav {
+    padding-left: 10px;
+  }
+  .nav__link {
+    padding: 20px 7px;
+  }
 }

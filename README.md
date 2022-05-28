@@ -1,19 +1,5 @@
-# cats
+# Кошачий пинтерест
 
-## Project setup
-```
-npm install
-```
+### Setup
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Vue Composition API, Vuex, Vue Router, Axios + The Cat API (https://thecatapi.com/)

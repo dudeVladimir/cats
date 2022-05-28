@@ -1,0 +1,24 @@
+h1 {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 10px;
+}
+
+.question {
+  background: #fff;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+
+.question:hover {
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.question span {
+  display: block;
+  margin-top: 7px;
+  color: rgba(0, 0, 0, 0.85);
+}
